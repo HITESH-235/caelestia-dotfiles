@@ -21,17 +21,21 @@ end
 hl.config({
     general = {
         border_size = 1,
-        gaps_in = 3,
-        gaps_out = 4,
+        gaps_in = 2,
+        gaps_out = 2,
     },
     group = {
         groupbar = {
             gaps_in = 2,
-            gaps_out = 4,
+            gaps_out = 2,
             gradient_rounding = 8,
         }
     },
     decoration = {
-    rounding = 10,
+        rounding = 15,
+    },
+    misc = {
+        disable_hyprland_logo = true,
+        force_default_wallpaper = 0,
     }
 })
