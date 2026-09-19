@@ -19,10 +19,3 @@ hl.gesture({
     direction = "down",
     action    = fn.toggle("specialws"),
 })
-hl.gesture({
-    fingers   = vars.gestureFingersMore,
-    direction = "down",
-    action    = function()
-        hl.exec_cmd(vars.sleepGestureCmd)
-    end,
-})
