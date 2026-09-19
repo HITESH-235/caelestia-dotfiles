@@ -8,4 +8,6 @@ return {
     kbWindowIncreaseWidth  = { "SUPER + Equal", "SUPER + SHIFT + Right" },
     kbWindowDecreaseHeight = { "SUPER + SHIFT + Minus", "SUPER + SHIFT + Up" },
     kbWindowIncreaseHeight = { "SUPER + SHIFT + Equal", "SUPER + SHIFT + Down" },
+    kbMoveWinToWs = "SUPER + SHIFT",
+    kbMoveWinToWsSpecial = "SUPER + SHIFT + U",
 }
