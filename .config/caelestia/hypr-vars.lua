@@ -10,6 +10,5 @@ return {
     kbWindowIncreaseHeight = { "SUPER + SHIFT + Equal", "SUPER + SHIFT + Down" },
     kbMoveWinToWs = "SUPER + SHIFT",
     kbMoveWinToWsSpecial = "SUPER + SHIFT + U",
-    sleepGestureCmd = "",
-    sleepGestureCmd = "",
 }
+    gestureFingersMore = 99,
