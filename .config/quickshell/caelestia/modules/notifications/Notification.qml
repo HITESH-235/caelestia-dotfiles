@@ -35,12 +35,14 @@ StyledRect {
     Component.onDestruction: modelData.unlock(this)
 
     Behavior on x {
+        enabled: !mouseArea.drag.active
         Anim {
             easing: Tokens.anim.emphasizedDecel
         }
     }
 
     MouseArea {
+        id: mouseArea
         property int startY
 
         anchors.fill: parent

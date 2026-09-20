@@ -147,6 +147,7 @@ LazyListView {
             }
 
             Behavior on x {
+                enabled: !notif.drag.active
                 Anim {}
             }
         }
